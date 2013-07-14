@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25BA7605178F61BD008682ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA7604178F61BD008682ED /* UIKit.framework */; };
+		25BA7607178F61BD008682ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA7606178F61BD008682ED /* Foundation.framework */; };
+		25BA7609178F61BD008682ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA7608178F61BD008682ED /* CoreGraphics.framework */; };
+		25BA760F178F61BD008682ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25BA760D178F61BD008682ED /* InfoPlist.strings */; };
+		25BA7611178F61BD008682ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BA7610178F61BD008682ED /* main.m */; };
+		25BA7615178F61BD008682ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BA7614178F61BD008682ED /* AppDelegate.m */; };
+		25BA7617178F61BD008682ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25BA7616178F61BD008682ED /* Default.png */; };
+		25BA7619178F61BD008682ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25BA7618178F61BD008682ED /* Default@2x.png */; };
+		25BA761B178F61BD008682ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25BA761A178F61BD008682ED /* Default-568h@2x.png */; };
+		25BA761E178F61BD008682ED /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BA761D178F61BD008682ED /* LightViewController.m */; };
+		25BA7621178F61BD008682ED /* LightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BA761F178F61BD008682ED /* LightViewController.xib */; };
+		25BA762A178F626A008682ED /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BA7629178F626A008682ED /* ArrayDataSource.m */; };
+		25BA762D178F6C4D008682ED /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BA762C178F6C4D008682ED /* TableCell.m */; };
+		25BA7630178F723B008682ED /* DataSourceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BA762F178F723B008682ED /* DataSourceItem.m */; };
+		25BA7633178F72A0008682ED /* TableCell+ConfigureContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BA7632178F72A0008682ED /* TableCell+ConfigureContent.m */; };
+		25BA763717913CF9008682ED /* StoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BA763617913CF9008682ED /* StoreManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25BA7601178F61BD008682ED /* LightViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BA7604178F61BD008682ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25BA7606178F61BD008682ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25BA7608178F61BD008682ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25BA760C178F61BD008682ED /* LightViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightViewController-Info.plist"; sourceTree = "<group>"; };
+		25BA760E178F61BD008682ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25BA7610178F61BD008682ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25BA7612178F61BD008682ED /* LightViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightViewController-Prefix.pch"; sourceTree = "<group>"; };
+		25BA7613178F61BD008682ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25BA7614178F61BD008682ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25BA7616178F61BD008682ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25BA7618178F61BD008682ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25BA761A178F61BD008682ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25BA761C178F61BD008682ED /* LightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightViewController.h; sourceTree = "<group>"; };
+		25BA761D178F61BD008682ED /* LightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightViewController.m; sourceTree = "<group>"; };
+		25BA7620178F61BD008682ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LightViewController.xib; sourceTree = "<group>"; };
+		25BA7628178F626A008682ED /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		25BA7629178F626A008682ED /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		25BA762B178F6C4D008682ED /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		25BA762C178F6C4D008682ED /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		25BA762E178F723B008682ED /* DataSourceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceItem.h; sourceTree = "<group>"; };
+		25BA762F178F723B008682ED /* DataSourceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceItem.m; sourceTree = "<group>"; };
+		25BA7631178F72A0008682ED /* TableCell+ConfigureContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TableCell+ConfigureContent.h"; sourceTree = "<group>"; };
+		25BA7632178F72A0008682ED /* TableCell+ConfigureContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TableCell+ConfigureContent.m"; sourceTree = "<group>"; };
+		25BA763517913CF9008682ED /* StoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreManager.h; sourceTree = "<group>"; };
+		25BA763617913CF9008682ED /* StoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25BA75FE178F61BD008682ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BA7605178F61BD008682ED /* UIKit.framework in Frameworks */,
+				25BA7607178F61BD008682ED /* Foundation.framework in Frameworks */,
+				25BA7609178F61BD008682ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25BA75F8178F61BD008682ED = {
+			isa = PBXGroup;
+			children = (
+				25BA760A178F61BD008682ED /* LightViewController */,
+				25BA7603178F61BD008682ED /* Frameworks */,
+				25BA7602178F61BD008682ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25BA7602178F61BD008682ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25BA7601178F61BD008682ED /* LightViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25BA7603178F61BD008682ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25BA7604178F61BD008682ED /* UIKit.framework */,
+				25BA7606178F61BD008682ED /* Foundation.framework */,
+				25BA7608178F61BD008682ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25BA760A178F61BD008682ED /* LightViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25BA763A1792A6F7008682ED /* Resources */,
+				25BA763417913CD5008682ED /* StoreManager */,
+				25BA7627178F624F008682ED /* Model */,
+				25BA76381792A6BA008682ED /* View */,
+				25BA76391792A6DE008682ED /* Controller */,
+				25BA7613178F61BD008682ED /* AppDelegate.h */,
+				25BA7614178F61BD008682ED /* AppDelegate.m */,
+				25BA760B178F61BD008682ED /* Supporting Files */,
+			);
+			path = LightViewController;
+			sourceTree = "<group>";
+		};
+		25BA760B178F61BD008682ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25BA760C178F61BD008682ED /* LightViewController-Info.plist */,
+				25BA760D178F61BD008682ED /* InfoPlist.strings */,
+				25BA7610178F61BD008682ED /* main.m */,
+				25BA7612178F61BD008682ED /* LightViewController-Prefix.pch */,
+				25BA7616178F61BD008682ED /* Default.png */,
+				25BA7618178F61BD008682ED /* Default@2x.png */,
+				25BA761A178F61BD008682ED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25BA7627178F624F008682ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25BA7628178F626A008682ED /* ArrayDataSource.h */,
+				25BA7629178F626A008682ED /* ArrayDataSource.m */,
+				25BA762E178F723B008682ED /* DataSourceItem.h */,
+				25BA762F178F723B008682ED /* DataSourceItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		25BA763417913CD5008682ED /* StoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				25BA763517913CF9008682ED /* StoreManager.h */,
+				25BA763617913CF9008682ED /* StoreManager.m */,
+			);
+			name = StoreManager;
+			sourceTree = "<group>";
+		};
+		25BA76381792A6BA008682ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25BA762B178F6C4D008682ED /* TableCell.h */,
+				25BA762C178F6C4D008682ED /* TableCell.m */,
+				25BA7631178F72A0008682ED /* TableCell+ConfigureContent.h */,
+				25BA7632178F72A0008682ED /* TableCell+ConfigureContent.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		25BA76391792A6DE008682ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25BA761C178F61BD008682ED /* LightViewController.h */,
+				25BA761D178F61BD008682ED /* LightViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		25BA763A1792A6F7008682ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25BA763B1792A702008682ED /* Xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		25BA763B1792A702008682ED /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				25BA761F178F61BD008682ED /* LightViewController.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25BA7600178F61BD008682ED /* LightViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BA7624178F61BD008682ED /* Build configuration list for PBXNativeTarget "LightViewController" */;
+			buildPhases = (
+				25BA75FD178F61BD008682ED /* Sources */,
+				25BA75FE178F61BD008682ED /* Frameworks */,
+				25BA75FF178F61BD008682ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightViewController;
+			productName = LightViewController;
+			productReference = 25BA7601178F61BD008682ED /* LightViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25BA75F9178F61BD008682ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = mulp;
+			};
+			buildConfigurationList = 25BA75FC178F61BD008682ED /* Build configuration list for PBXProject "LightViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25BA75F8178F61BD008682ED;
+			productRefGroup = 25BA7602178F61BD008682ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25BA7600178F61BD008682ED /* LightViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25BA75FF178F61BD008682ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BA760F178F61BD008682ED /* InfoPlist.strings in Resources */,
+				25BA7617178F61BD008682ED /* Default.png in Resources */,
+				25BA7619178F61BD008682ED /* Default@2x.png in Resources */,
+				25BA761B178F61BD008682ED /* Default-568h@2x.png in Resources */,
+				25BA7621178F61BD008682ED /* LightViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25BA75FD178F61BD008682ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BA7611178F61BD008682ED /* main.m in Sources */,
+				25BA7615178F61BD008682ED /* AppDelegate.m in Sources */,
+				25BA761E178F61BD008682ED /* LightViewController.m in Sources */,
+				25BA762A178F626A008682ED /* ArrayDataSource.m in Sources */,
+				25BA762D178F6C4D008682ED /* TableCell.m in Sources */,
+				25BA7630178F723B008682ED /* DataSourceItem.m in Sources */,
+				25BA7633178F72A0008682ED /* TableCell+ConfigureContent.m in Sources */,
+				25BA763717913CF9008682ED /* StoreManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25BA760D178F61BD008682ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BA760E178F61BD008682ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25BA761F178F61BD008682ED /* LightViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BA7620178F61BD008682ED /* en */,
+			);
+			name = LightViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25BA7622178F61BD008682ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25BA7623178F61BD008682ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25BA7625178F61BD008682ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightViewController/LightViewController-Prefix.pch";
+				INFOPLIST_FILE = "LightViewController/LightViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25BA7626178F61BD008682ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightViewController/LightViewController-Prefix.pch";
+				INFOPLIST_FILE = "LightViewController/LightViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25BA75FC178F61BD008682ED /* Build configuration list for PBXProject "LightViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BA7622178F61BD008682ED /* Debug */,
+				25BA7623178F61BD008682ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BA7624178F61BD008682ED /* Build configuration list for PBXNativeTarget "LightViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BA7625178F61BD008682ED /* Debug */,
+				25BA7626178F61BD008682ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25BA75F9178F61BD008682ED /* Project object */;
+}
